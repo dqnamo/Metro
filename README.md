@@ -2,13 +2,8 @@
 Base16 colour scheme with a focus on Ruby on Rails development.
 
 ### Installation ###
-
-Recommended
-You can install ayu via Package Control.
-
-Press `cmd/ctrl + shift + p` to open the command palette.
-Type `install package` and press enter. Then search for ayu
-Manual
-
-Download the latest release, extract and rename the directory to ayu.
+Download the latest release, extract and rename the directory to metro.
 Move the directory inside your sublime /Packages directory. (Preferences > Browse packages...)
+
+### Activation ###
+Open command palette via Tools > Command Palette (or cmd/ctrl + shift + p) and type ayu: Activate theme.
