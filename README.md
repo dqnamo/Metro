@@ -6,4 +6,4 @@ Download the latest release, extract and rename the directory to metro.
 Move the directory inside your sublime /Packages directory. (Preferences > Browse packages...)
 
 ### Activation ###
-Open command palette via Tools > Command Palette (or cmd/ctrl + shift + p) and type ayu: Activate theme.
+Open command palette via Tools > Command Palette (or cmd/ctrl + shift + p) and type `UI: select color scheme` and select metro.
