@@ -1,0 +1,326 @@
+{
+    "name": "Metro Base16",
+    "author": "John Paul",
+    "variables":
+    {
+        "black": "#0c0c12",
+        "black2": "#13131b",
+        "blue": "#66a6ed",
+        "blue2": "#6699cc",
+        "blue3": "#569ad1",
+        "blue4": "#3d3d5c",
+        "blue5": "#373752",
+        "blue6": "#57577a",
+        "cyan": "#66cccc",
+        "cyan2": "#77dce8",
+        "green": "#a9dc76",
+        "green2": "#99cc99",
+        "grey": "#747369",
+        "grey2": "#515151",
+        "grey3": "#2d2d2d",
+        "orange": "#ffcc66",
+        "orange2": "#ffd866",
+        "orange3": "#f99157",
+        "orange4": "#d27b53",
+        "orange5": "#d3d0c8",
+        "pink": "#cc99cc",
+        "purple": "#aa9df2",
+        "red": "#f2777a",
+        "red2": "#ff6188",
+        "white": "#e8e8e8",
+        "white2": "#f2f0ec"
+    },
+    "globals":
+    {
+        "foreground": "var(white)",
+        "background": "var(black2)",
+        "caret": "var(orange5)",
+        "invisibles": "var(grey)",
+        "line_highlight": "var(black)",
+        "selection": "var(blue5)",
+        "gutter_foreground": "var(blue4)"
+    },
+    "rules":
+    [
+        {
+            "name": "Text",
+            "scope": "variable.parameter.function, meta.function.parameters variable.parameter",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Comments",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(blue6)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array, punctuation.definition.constant, punctuation.definition.keyword, punctuation.definition.entity, punctuationctuation.definition.entity.css, punctuation.section.function, punctuation.separator",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Delimiters",
+            "scope": "none",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Keywords",
+            "scope": "keyword",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Variables",
+            "scope": "variable",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Functions",
+            "scope": "entity.name.function, meta.require, support.function.any-method",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Classes",
+            "scope": "support.class, entity.name.class, entity.name.type.class, entity.name.module, entity.name.type.module",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "Inherited Class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "Class and Module Namespace separators",
+            "scope": "meta.module entity.name.module punctuation.accessor.ruby, meta.class entity.name.class punctuation.accessor.ruby, meta.class entity.other.inherited-class punctuation.accessor.ruby",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Classes",
+            "scope": "meta.class",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Methods",
+            "scope": "keyword.other.special-method",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Support",
+            "scope": "support.function",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Builtin Function",
+            "scope": "support.function.builtin",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Strings",
+            "scope": "string, string source string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Symbols",
+            "scope": "constant.other.symbol",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Integers",
+            "scope": "constant.numeric",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Floats",
+            "scope": "none",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Boolean",
+            "scope": "none",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Constants",
+            "scope": "constant",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Tags",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Haml Tags",
+            "scope": "entity.name.tag.haml",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Haml Class",
+            "scope": "entity.name.tag.class.haml",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "Haml Id",
+            "scope": "entity.name.tag.id.haml",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Attributes",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Attribute IDs",
+            "scope": "entity.other.attribute-name.id",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Selector",
+            "scope": "meta.selector",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Values",
+            "scope": "none",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Headings",
+            "scope": "markup.heading punctuation.definition.heading, entity.name.section",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Units",
+            "scope": "keyword.other.unit",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Bold",
+            "scope": "markup.bold, punctuation.definition.bold",
+            "foreground": "var(orange)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Italic",
+            "scope": "markup.italic, punctuation.definition.italic",
+            "foreground": "var(pink)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Code",
+            "scope": "markup.raw.inline",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "Link Text",
+            "scope": "string.other.link",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Link Url",
+            "scope": "meta.link",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Lists",
+            "scope": "markup.list",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Quotes",
+            "scope": "markup.quote",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Separator",
+            "scope": "meta.separator",
+            "foreground": "var(orange5)",
+            "background": "var(grey2)"
+        },
+        {
+            "name": "Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Changed",
+            "scope": "markup.changed",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Colors",
+            "scope": "constant.other.color, punctuation.definition.constant.scss ",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": "string.regexp",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Escape Characters",
+            "scope": "constant.character.escape",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Embedded",
+            "scope": "variable.interpolation",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid.illegal",
+            "foreground": "var(grey3)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Embedded Source",
+            "scope": "string source, text source, source meta.interpolation source",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "ERB tags",
+            "scope": "text source punctuation.section.embedded, text string source punctuation.section.embedded",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "String Interpolation Chars (Ruby)",
+            "scope": "source.ruby meta.interpolation punctuation.section.interpolation.begin, source.ruby meta.interpolation punctuation.section.interpolation.end",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "SCSS variable",
+            "scope": "variable.scss",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Support Constant",
+            "scope": "support.constant",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Block Variables",
+            "scope": "variable.other.block, meta.block.parameters variable.parameter.ruby",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Constant Variables",
+            "scope": "meta.constant entity.name.constant.ruby, variable.other.constant.ruby",
+            "foreground": "var(red)"
+        }
+    ]
+}
